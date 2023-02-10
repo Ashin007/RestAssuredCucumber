@@ -1,0 +1,37 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/users?page=2
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=2
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+HTTP/1.1 201 Created
+Date: Fri, 10 Feb 2023 18:53:34 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 84
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"54-c2hB1Bjl5XACq1GdLPEMSkn7k+o"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=d9aaOqyyvU8%2B5285zI1Y%2BGCZ1UFeAIpn4G2TvH4A50a5ypdSGKMMylywxWUjTZZdWOsuD5EREocryFgxdGsR1NPNkIrRzCdRWds%2Fa4jdBasN%2Fgtv8%2BnMgqcX2g%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 79770c616b526ebf-BOM
+
+{
+    "name": "morpheus",
+    "job": "leader",
+    "id": "414",
+    "createdAt": "2023-02-10T18:53:34.632Z"
+}
